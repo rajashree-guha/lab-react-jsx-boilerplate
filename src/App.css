@@ -1,1 +1,16 @@
 /* add your styles here */
+
+.flex{
+    display: grid;
+    grid-template-columns: repeat(2,760px);
+    row-gap: 20px;
+    justify-items: center;
+}
+
+.flex>img{
+    width: 735px;
+}
+
+.text{
+    text-align: center;
+}
